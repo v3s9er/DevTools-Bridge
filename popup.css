@@ -1,0 +1,13 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; }
+body { width: 330px; margin: 0; background: #f7f9fc; color: #182334; }
+main { padding: 18px; }
+h1 { margin: 0 0 9px; font-size: 18px; }
+p { font-size: 13px; line-height: 1.45; color: #526176; }
+code { font-family: Consolas, monospace; }
+button { width: 100%; padding: 9px; margin-top: 8px; border: 0; border-radius: 6px; color: white; background: #1959a8; font-weight: 650; cursor: pointer; }
+button.secondary { background: #526176; }
+button:disabled { opacity: .5; cursor: wait; }
+#status { min-height: 18px; margin-bottom: 0; }
+#status.error { color: #9d2525; }
+footer { margin-top: 14px; padding-top: 10px; border-top: 1px solid #d8e0eb; color: #526176; font-size: 12px; }
+footer a { color: #1959a8; }
